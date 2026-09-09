@@ -16,6 +16,7 @@
 #include "buff_timers.h"
 #include "callbacks.h"
 #include "camera_mods.h"
+#include "cards.h"
 #include "character_select.h"
 #include "chat.h"
 #include "chatfilter.h"
@@ -173,6 +174,7 @@ ZealService::ZealService() {
   charselect = MakeCheckedUnique(CharacterSelect);  // Uses ui->zoneselect.
   spell_sets = MakeCheckedUnique(SpellSets);        // Uses ui->inputDialog.
   survey = MakeCheckedUnique(Survey);               // Uses UI manager and input dialog.
+  cards = MakeCheckedUnique(Cards);                 // Cards of Norrath. Uses commands_hook (later ui).
 
   callbacks->AddGeneric([this]() {
     if (Zeal::Game::is_in_game() && print_buffer.size()) {

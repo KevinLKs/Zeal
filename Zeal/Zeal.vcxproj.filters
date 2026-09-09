@@ -129,6 +129,9 @@
     <ClInclude Include="netstat.h">
       <Filter>Header Files\other</Filter>
     </ClInclude>
+    <ClInclude Include="cards.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
     <ClInclude Include="item_display.h">
       <Filter>Header Files\hooks</Filter>
     </ClInclude>
@@ -383,6 +386,9 @@
     <ClCompile Include="netstat.cpp">
       <Filter>Source Files\other</Filter>
     </ClCompile>
+    <ClCompile Include="cards.cpp">
+      <Filter>Source Files\other</Filter>
+    </ClCompile>
     <ClCompile Include="item_display.cpp">
       <Filter>Source Files\hooks</Filter>
     </ClCompile>
@@ -616,4 +622,4 @@
       <Filter>UI Files</Filter>
     </Text>
   </ItemGroup>
-</Project>
+</Project>

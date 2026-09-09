@@ -135,6 +135,7 @@
     <ClInclude Include="camera_mods.h" />
     <ClInclude Include="instruction_length.h" />
     <ClInclude Include="netstat.h" />
+    <ClInclude Include="cards.h" />
     <ClInclude Include="outputfile.h" />
     <ClInclude Include="raid.h" />
     <ClInclude Include="resource.h" />
@@ -216,6 +217,7 @@
     <ClCompile Include="memory.cpp" />
     <ClCompile Include="camera_mods.cpp" />
     <ClCompile Include="netstat.cpp" />
+    <ClCompile Include="cards.cpp" />
     <ClCompile Include="outputfile.cpp" />
     <ClCompile Include="raid.cpp" />
     <ClCompile Include="spellsets.cpp" />
@@ -265,4 +267,4 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-</Project>
+</Project>

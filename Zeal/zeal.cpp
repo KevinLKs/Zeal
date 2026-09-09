@@ -174,7 +174,7 @@ ZealService::ZealService() {
   charselect = MakeCheckedUnique(CharacterSelect);  // Uses ui->zoneselect.
   spell_sets = MakeCheckedUnique(SpellSets);        // Uses ui->inputDialog.
   survey = MakeCheckedUnique(Survey);               // Uses UI manager and input dialog.
-  cards = MakeCheckedUnique(Cards);                 // Cards of Norrath. Uses commands_hook (later ui).
+  cards = MakeCheckedUnique(Cards);                 // Cards of Norrath. Uses ui, callbacks, commands_hook.
 
   callbacks->AddGeneric([this]() {
     if (Zeal::Game::is_in_game() && print_buffer.size()) {

@@ -1,0 +1,192 @@
+{
+  "format": "cards-of-norrath.pool",
+  "version": 1,
+  "generated": "2026-09-09T02:12:14.334Z",
+  "artPath": "uifiles/zeal/cards/<art>.tga",
+  "budget": {
+    "base": 8,
+    "step": 2,
+    "band": 1,
+    "staticFrom": 7,
+    "capBase": 3,
+    "capStep": 1
+  },
+  "cards": [
+    {
+      "dex": null,
+      "expansion": "Classic",
+      "name": "Meepmoop",
+      "level": 0,
+      "secret": true,
+      "element": "Magic",
+      "base": {
+        "n": 7,
+        "e": 6,
+        "s": 3,
+        "w": 6
+      },
+      "art": "1200e8501c7d",
+      "flair": ""
+    },
+    {
+      "dex": 1,
+      "expansion": "Classic",
+      "name": "a large rat",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 3,
+        "e": 2,
+        "s": 2,
+        "w": 2
+      },
+      "art": "6edc789f460d",
+      "flair": "A rat"
+    },
+    {
+      "dex": 2,
+      "expansion": "Classic",
+      "name": "a bat",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 4,
+        "e": 1,
+        "s": 3,
+        "w": 1
+      },
+      "art": "15481fae9aaa",
+      "flair": "A bat!"
+    },
+    {
+      "dex": 3,
+      "expansion": "Classic",
+      "name": "a black wolf",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 4,
+        "e": 2,
+        "s": 1,
+        "w": 2
+      },
+      "art": "107f65680be3",
+      "flair": "A wolf!"
+    },
+    {
+      "dex": 4,
+      "expansion": "Classic",
+      "name": "a firebeetle",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 3,
+        "e": 1,
+        "s": 4,
+        "w": 1
+      },
+      "art": "5eaf762d0a0a",
+      "flair": "A fire beetle!"
+    },
+    {
+      "dex": 5,
+      "expansion": "Classic",
+      "name": "a large snake",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 4,
+        "e": 1,
+        "s": 1,
+        "w": 3
+      },
+      "art": "66272e874f71",
+      "flair": "a snake!"
+    },
+    {
+      "dex": 6,
+      "expansion": "Classic",
+      "name": "a spiderling",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 2,
+        "e": 1,
+        "s": 4,
+        "w": 2
+      },
+      "art": "1d3b5bfe4080",
+      "flair": "A little baby spider"
+    },
+    {
+      "dex": 7,
+      "expansion": "Classic",
+      "name": "a puma",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 2,
+        "e": 4,
+        "s": 1,
+        "w": 2
+      },
+      "art": "c8f1db2c8c16",
+      "flair": "A puma! Or is it a lioness?"
+    },
+    {
+      "dex": 8,
+      "expansion": "Classic",
+      "name": "a deathfist orc",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 3,
+        "e": 3,
+        "s": 1,
+        "w": 2
+      },
+      "art": "18bacec2aa60",
+      "flair": "A Deathfist Orc!"
+    },
+    {
+      "dex": 9,
+      "expansion": "Classic",
+      "name": "a decaying skeleton",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 4,
+        "e": 2,
+        "s": 2,
+        "w": 1
+      },
+      "art": "1117ac0b6f85",
+      "flair": "Mr. Bones!"
+    },
+    {
+      "dex": 10,
+      "expansion": "Classic",
+      "name": "a Freeport militia guard",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 4,
+        "e": 2,
+        "s": 1,
+        "w": 2
+      },
+      "art": "13e51c43c1c5",
+      "flair": "Guard man"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "format": "cards-of-norrath-sources",
+  "version": 1,
+  "note": "Keyed by card art hash, the same key the collection store uses. Sidecar to pool.json so a forge re-export cannot clobber it. Every field here is readable on Entity at kill time: race 0x00AA, texture 0x00EC, level 0x00AD, name. bodytype is server side and is NOT usable at runtime; it was only used offline to decide which names need excluding.",
+  "match": {
+    "race": "required",
+    "textures": "optional list, omit for any",
+    "zones": "optional zone id list, omit for any",
+    "level": "optional [min,max] inclusive, generous band because the client sees the rolled level",
+    "name_contains": "optional lowercase substring",
+    "name_not_contains": "optional lowercase substring",
+    "name_prefix": "optional lowercase prefix",
+    "name_exact": "optional, lowercase",
+    "exclude_names": "card level, lowercase exact names that never credit"
+  },
+  "cards": {
+    "6edc789f460d": {
+      "name": "a large rat",
+      "sources": [
+        {
+          "race": 36,
+          "textures": [
+            0,
+            2
+          ],
+          "level": [
+            1,
+            17
+          ]
+        }
+      ],
+      "exclude_names": [
+        "an undead rat",
+        "a revultant rat"
+      ]
+    },
+    "15481fae9aaa": {
+      "name": "a bat",
+      "sources": [
+        {
+          "race": 34,
+          "level": [
+            1,
+            42
+          ]
+        }
+      ]
+    },
+    "107f65680be3": {
+      "name": "a black wolf",
+      "sources": [
+        {
+          "race": 42,
+          "textures": [
+            1
+          ],
+          "level": [
+            1,
+            40
+          ]
+        }
+      ]
+    },
+    "5eaf762d0a0a": {
+      "name": "a firebeetle",
+      "sources": [
+        {
+          "race": 22,
+          "textures": [
+            0,
+            1
+          ],
+          "level": [
+            1,
+            42
+          ]
+        }
+      ]
+    },
+    "66272e874f71": {
+      "name": "a large snake",
+      "sources": [
+        {
+          "race": 37,
+          "textures": [
+            0
+          ],
+          "level": [
+            1,
+            34
+          ]
+        }
+      ]
+    },
+    "1d3b5bfe4080": {
+      "name": "a spiderling",
+      "sources": [
+        {
+          "race": 38,
+          "textures": [
+            0,
+            1,
+            2
+          ],
+          "level": [
+            1,
+            12
+          ],
+          "name_contains": "spiderling"
+        }
+      ]
+    },
+    "c8f1db2c8c16": {
+      "name": "a puma",
+      "sources": [
+        {
+          "race": 76,
+          "level": [
+            1,
+            17
+          ]
+        }
+      ]
+    },
+    "18bacec2aa60": {
+      "name": "a deathfist orc",
+      "sources": [
+        {
+          "race": 54,
+          "textures": [
+            0
+          ],
+          "level": [
+            1,
+            12
+          ],
+          "name_contains": "deathfist"
+        }
+      ]
+    },
+    "1117ac0b6f85": {
+      "name": "a decaying skeleton",
+      "sources": [
+        {
+          "race": 60,
+          "textures": [
+            0
+          ],
+          "level": [
+            1,
+            12
+          ],
+          "name_exact": "a decaying skeleton"
+        }
+      ]
+    },
+    "13e51c43c1c5": {
+      "name": "a Freeport militia guard",
+      "sources": [
+        {
+          "race": 44,
+          "textures": [
+            1
+          ],
+          "zones": [
+            8,
+            9,
+            10
+          ],
+          "level": [
+            10,
+            55
+          ],
+          "name_prefix": "guard "
+        }
+      ]
+    },
+    "34c1ed2b48d8": {
+      "name": "a darkpaw gnoll",
+      "sources": [
+        {
+          "race": 39,
+          "textures": [
+            2
+          ],
+          "level": [
+            1,
+            30
+          ]
+        }
+      ]
+    },
+    "cdf77d6a75e1": {
+      "name": "a grizzly bear",
+      "sources": [
+        {
+          "race": 43,
+          "textures": [
+            0
+          ],
+          "level": [
+            1,
+            35
+          ]
+        }
+      ]
+    },
+    "17eb75f4217b": {
+      "name": "a ghoul",
+      "sources": [
+        {
+          "race": 33,
+          "textures": [
+            0
+          ],
+          "level": [
+            10,
+            30
+          ]
+        }
+      ]
+    },
+    "1b6789d82512": {
+      "name": "a lion",
+      "sources": [
+        {
+          "race": 50,
+          "textures": [
+            0
+          ],
+          "level": [
+            1,
+            25
+          ]
+        }
+      ]
+    },
+    "e7a33f06bea4": {
+      "name": "guard of qeynos",
+      "sources": [
+        {
+          "race": 71,
+          "textures": [
+            1
+          ],
+          "zones": [
+            1,
+            2
+          ],
+          "level": [
+            1,
+            55
+          ],
+          "name_prefix": "guard "
+        }
+      ]
+    },
+    "ecffeef750db": {
+      "name": "a scarecrow",
+      "sources": [
+        {
+          "race": 82,
+          "level": [
+            1,
+            55
+          ]
+        }
+      ]
+    },
+    "1a01786c61df": {
+      "name": "a spider",
+      "sources": [
+        {
+          "race": 38,
+          "textures": [
+            0,
+            1,
+            2
+          ],
+          "level": [
+            1,
+            50
+          ],
+          "name_not_contains": "spiderling"
+        }
+      ]
+    },
+    "2f966ebb66ee": {
+      "name": "a willowisp",
+      "sources": [
+        {
+          "race": 69,
+          "textures": [
+            0
+          ],
+          "level": [
+            1,
+            55
+          ]
+        }
+      ]
+    },
+    "149a5e937160": {
+      "name": "a zombie",
+      "sources": [
+        {
+          "race": 70,
+          "textures": [
+            0
+          ],
+          "level": [
+            1,
+            56
+          ]
+        }
+      ]
+    },
+    "1200e8501c7d": {
+      "name": "Meepmoop",
+      "secret": true,
+      "sources": [],
+      "comment": "Secret tier. Never dropped from a kill; record_kill already ignores secrets."
+    }
+  }
+}

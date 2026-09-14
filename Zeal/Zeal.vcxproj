@@ -136,6 +136,8 @@
     <ClInclude Include="instruction_length.h" />
     <ClInclude Include="netstat.h" />
     <ClInclude Include="cards.h" />
+    <ClInclude Include="card_collection.h" />
+    <ClInclude Include="card_sources.h" />
     <ClInclude Include="outputfile.h" />
     <ClInclude Include="raid.h" />
     <ClInclude Include="resource.h" />
@@ -218,6 +220,8 @@
     <ClCompile Include="camera_mods.cpp" />
     <ClCompile Include="netstat.cpp" />
     <ClCompile Include="cards.cpp" />
+    <ClCompile Include="card_collection.cpp" />
+    <ClCompile Include="card_sources.cpp" />
     <ClCompile Include="outputfile.cpp" />
     <ClCompile Include="raid.cpp" />
     <ClCompile Include="spellsets.cpp" />

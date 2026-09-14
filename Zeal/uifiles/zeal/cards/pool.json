@@ -1,7 +1,7 @@
 {
   "format": "cards-of-norrath.pool",
   "version": 1,
-  "generated": "2026-09-09T02:12:14.334Z",
+  "generated": "2026-09-13T03:44:13.232Z",
   "artPath": "uifiles/zeal/cards/<art>.tga",
   "budget": {
     "base": 8,
@@ -12,6 +12,22 @@
     "capStep": 1
   },
   "cards": [
+    {
+      "dex": null,
+      "expansion": "Classic",
+      "name": "a zombie",
+      "level": 2,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 3,
+        "e": 5,
+        "s": 1,
+        "w": 2
+      },
+      "art": "149a5e937160",
+      "flair": "stinks"
+    },
     {
       "dex": null,
       "expansion": "Classic",
@@ -187,6 +203,134 @@
       },
       "art": "13e51c43c1c5",
       "flair": "Guard man"
+    },
+    {
+      "dex": 11,
+      "expansion": "Classic",
+      "name": "a darkpaw gnoll",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 3,
+        "e": 1,
+        "s": 1,
+        "w": 4
+      },
+      "art": "34c1ed2b48d8",
+      "flair": "Meow"
+    },
+    {
+      "dex": 12,
+      "expansion": "Classic",
+      "name": "a grizzly bear",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 1,
+        "e": 1,
+        "s": 4,
+        "w": 3
+      },
+      "art": "cdf77d6a75e1",
+      "flair": "rawr, glomp"
+    },
+    {
+      "dex": 13,
+      "expansion": "Classic",
+      "name": "a ghoul",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 1,
+        "e": 3,
+        "s": 4,
+        "w": 1
+      },
+      "art": "17eb75f4217b",
+      "flair": "spoopy"
+    },
+    {
+      "dex": 14,
+      "expansion": "Classic",
+      "name": "a lion",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 1,
+        "e": 4,
+        "s": 3,
+        "w": 1
+      },
+      "art": "1b6789d82512",
+      "flair": "woof"
+    },
+    {
+      "dex": 15,
+      "expansion": "Classic",
+      "name": "guard of qeynos",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 4,
+        "e": 3,
+        "s": 1,
+        "w": 1
+      },
+      "art": "e7a33f06bea4",
+      "flair": "ugh"
+    },
+    {
+      "dex": 16,
+      "expansion": "Classic",
+      "name": "a scarecrow",
+      "level": 1,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 1,
+        "e": 3,
+        "s": 1,
+        "w": 4
+      },
+      "art": "ecffeef750db",
+      "flair": "awuwu"
+    },
+    {
+      "dex": 17,
+      "expansion": "Classic",
+      "name": "a spider",
+      "level": 2,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 5,
+        "e": 2,
+        "s": 1,
+        "w": 3
+      },
+      "art": "1a01786c61df",
+      "flair": "holy shit"
+    },
+    {
+      "dex": 18,
+      "expansion": "Classic",
+      "name": "a willowisp",
+      "level": 2,
+      "secret": false,
+      "element": null,
+      "base": {
+        "n": 2,
+        "e": 3,
+        "s": 2,
+        "w": 4
+      },
+      "art": "2f966ebb66ee",
+      "flair": "I can't kick it!"
     }
   ]
 }

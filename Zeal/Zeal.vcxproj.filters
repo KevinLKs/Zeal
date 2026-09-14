@@ -132,6 +132,12 @@
     <ClInclude Include="cards.h">
       <Filter>Header Files\other</Filter>
     </ClInclude>
+    <ClInclude Include="card_collection.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="card_sources.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
     <ClInclude Include="item_display.h">
       <Filter>Header Files\hooks</Filter>
     </ClInclude>
@@ -387,6 +393,12 @@
       <Filter>Source Files\other</Filter>
     </ClCompile>
     <ClCompile Include="cards.cpp">
+      <Filter>Source Files\other</Filter>
+    </ClCompile>
+    <ClCompile Include="card_collection.cpp">
+      <Filter>Source Files\other</Filter>
+    </ClCompile>
+    <ClCompile Include="card_sources.cpp">
       <Filter>Source Files\other</Filter>
     </ClCompile>
     <ClCompile Include="item_display.cpp">
